@@ -25,6 +25,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 body {
     font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1em;
 }
 
 a:link, a:hover, a:visited {
@@ -84,14 +85,14 @@ h2 {
     text-transform: lowercase; 
     background-color: #729fcf;
     margin: 0;
-    font-size: large;
+    font-size: 1.5em;
 }
 
 h3 {
     padding: 0.2em;
     background-color: #d3d7cf;
     margin: 0;
-    font-size: medium;
+    font-size: 1.2em;
 }
 
 #main { 
@@ -118,6 +119,7 @@ div.section {
     margin: auto;
     background-color: #8ae234; 
     text-align: center;
+    font-size:1em;
 }
 #contact > span {
     display: inline-block;
