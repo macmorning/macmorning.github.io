@@ -25,7 +25,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 body {
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 1em;
 }
 
 a:link, a:hover, a:visited {
@@ -45,9 +44,7 @@ p.smallComment {
     text-align: center;
 }
 
-p#originalURL {
-	display:none;
-}
+
 
 ul.bullet {
     list-style-type: none;
@@ -78,9 +75,11 @@ span.greenStars, span.grayStars {
 }
 span.greenStars {
 	color: #4e9a06;
+	width: 7em;
+	text-align:right;
 }
 span.grayStars {
-	color: #d3d7cf;
+	display:none;
 }
 
 
@@ -108,7 +107,6 @@ h3 {
 
 h4 {
 	margin: 0.2em;
-    background-color: #729fcf;
 }
 
 h5 {
@@ -146,7 +144,7 @@ div.section {
 
 #contact {
     display: block;
-    border:1px solid #888a85;
+    border:0;
     width:98%;
     margin: auto;
     background-color: #8ae234; 
@@ -161,7 +159,7 @@ div.section {
     display:none;
 }
 .valid {
-    display:inline-block;
+    display:none;
 }
 
 table.profExperience {
@@ -177,76 +175,13 @@ table.profExperience td {
 }
 table.profExperience .companyTD {
     text-align: center;
-    display:none;
     width: 10%;
 }
 table.profExperience .companyTR {
     text-align: center;
-	display:table-cell;
+    display:none;
 }
 table.profExperience .yearsTD {
     text-align: center;
     width: 10%;
 }
-
-/* 512px */
-@media all and (min-width: 32em){
-    #main { 
-        width:98%; 
-        box-shadow: 8px 8px 12px #aaa;
-        margin:auto;
-        margin-top: 2.2em;
-        border:1px solid black;
-    }
-	#footerBlock {
-		display: block;
-	}
-    #contact {
-        position: fixed;
-        width: 20em;
-        margin : 0 0.4em 0 0.4em;
-        top: 0.4em;
-        text-align: left;
-    }
-}
-
-/* 800px */
-@media all and (min-width: 50em){
-    #forkme {
-        display:block;
-    }
-    table.profExperience .companyTD {
-        display:table-cell;
-        width: 10%;
-    }    
-	table.profExperience .companyTR {
-		text-align: center;
-		display:none;
-	}
-}
-
-/* 1008px */
-@media all and (min-width: 63em){
-    #main {
-        border:none;
-        box-shadow: none;
-    }
-    #firstBlock, #secondBlock, #thirdBlock , #footerBlock{
-        float:left;
-    }
-    .leftBlock {
-        float:left;
-        width: 48%;
-        margin-right: 1%;
-    }
-    .rightBlock {
-        float:left;
-        width: 48%;
-        margin-left: 2%;
-    }    
-    div.section { 
-        box-shadow: 8px 8px 12px #aaa;
-        width:98%; 
-    }
-}
-
