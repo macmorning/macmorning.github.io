@@ -155,10 +155,7 @@ div.section {
     display: inline-block;
     margin: 0 0.5em 0 0.5em;
 }
-#forkme {
-    display:none;
-}
-.valid {
+#forkme, .valid {
     display:none;
 }
 
