@@ -25,6 +25,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 body {
     font-family: Tahoma, Geneva, sans-serif;
+    font-size: small;
 }
 
 a:link, a:hover, a:visited {
@@ -34,7 +35,7 @@ a:link, a:hover, a:visited {
 
 p {
     margin: 0.5em;
-    line-height: 1.5em;
+    line-height: 1em;
 }
 
 p.smallComment {
@@ -44,6 +45,8 @@ p.smallComment {
     text-align: center;
 }
 
+.printOnly {
+}
 
 
 ul.bullet {

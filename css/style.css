@@ -25,6 +25,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 body {
     font-family: Tahoma, Geneva, sans-serif;
+    font-size: small;
 }
 
 a:link, a:hover, a:visited {
@@ -43,9 +44,10 @@ p.smallComment {
     text-align: center;
 }
 
-p#originalURL {
+.printOnly {
 	display:none;
 }
+
 
 ul.bullet {
     list-style-type: none;
@@ -174,6 +176,7 @@ table.profExperience .companyTD {
     text-align: center;
     display:none;
     width: 10%;
+    background-color: #729fcf;
 }
 table.profExperience .companyTR {
     text-align: center;
