@@ -24,8 +24,9 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 */
 body {
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: Raleway, Tahoma, sans-serif;
     font-size: small;
+	background-color: #B2776C;
 }
 
 a:link, a:hover, a:visited {
@@ -84,35 +85,37 @@ span.grayStars {
 
 
 h1 {
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
+	font-family: Lobster;
     margin: 0;
     padding: 0;
 }
 
 h2 {
+	font-family: Lobster;
     padding: 0.2em;
     text-transform: lowercase; 
-    background-color: #729fcf;
+    background-color: #5AB28E;
     margin: 0;
     font-size: x-large;
 }
 
 h3 {
     padding: 0.2em;
-    background-color: #d3d7cf;
+    background-color: #B4FFE0;
     margin: 0;
     font-size: large;
 }
 
 h4 {
 	margin: 0.2em;
-    background-color: #729fcf;
+    background-color: #5AB28E;
 }
 
 h5 {
     padding: 0.2em;
-    background-color: #d3d7cf;
+    background-color: #B4FFE0;
     margin: 0;
 }
 
@@ -135,8 +138,10 @@ img {
 }
 
 div.section { 
-    padding: 0.2em;
+    background-color: #FFD5CD;
+	padding: 0.2em;
     border:1px solid #888a85;
+	border-radius: 0 0 15px 15px;
     display:block; 
     width:96%; 
     margin: 1em 0.5em 0 0.5em;
@@ -144,10 +149,10 @@ div.section {
 
 #contact {
     display: block;
-    border:1px solid #888a85;
+    border:1px solid #5AB28E;
     width:98%;
     margin: auto;
-    background-color: #8ae234; 
+    background-color: #5AB28E; 
     text-align: center;
 }
 #contact > span {
@@ -164,19 +169,19 @@ div.section {
 table.profExperience {
     margin: 0.5em 0.5em 0.5em 0.5em;
     width: 98%;
-    border: 1px solid #888a85;
+    border: 1px solid #5AB28E;
 }
 table.profExperience th {
-    background-color: #8ae234;
+    background-color: #5AB28E;
 }
 table.profExperience td {
-    border: 1px solid #888a85;
+    border: 1px solid #5AB28E;
 }
 table.profExperience .companyTD {
     text-align: center;
     display:none;
     width: 10%;
-    background-color: #729fcf;
+    background-color: #5AB28E;
 }
 table.profExperience .companyTR {
     text-align: center;
