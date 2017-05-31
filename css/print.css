@@ -145,18 +145,8 @@ div.section {
     margin: 1em 0.5em 0 0.5em;
 }
 
-#contact {
-    display: block;
-    border:0;
-    width:98%;
-    margin: auto;
-    background-color: #8ae234; 
-    text-align: center;
-    font-size:1em;
-}
-#contact > span {
-    display: inline-block;
-    margin: 0 0.5em 0 0.5em;
+#share {
+    display: none;
 }
 #forkme, .valid {
     display:none;
