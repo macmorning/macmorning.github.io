@@ -242,9 +242,7 @@ div.sticky-rotated {
 @media all and (min-width: 50em){
     #main { 
         width:98%; 
-        box-shadow: 8px 8px 12px #aaa;
         margin:auto;
-        border:1px solid black;
     }
 	#footerBlock {
 		display: block;
@@ -260,21 +258,10 @@ div.sticky-rotated {
 		text-align: center;
 		display:none;
 	}
-    #contact {
-        position: fixed;
-        width: 21em;
-        margin : 0 0.4em 0 0.4em;
-        top: 0.4em;
-        text-align: left;
-    }
 }
 
 /* 1008px */
 @media all and (min-width: 63em){
-    #main {
-        border:none;
-        box-shadow: none;
-    }
     #firstBlock, #secondBlock, #thirdBlock , #footerBlock{
         float:left;
     }
