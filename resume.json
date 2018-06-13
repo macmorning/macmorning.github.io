@@ -16,9 +16,14 @@
     },
     "profiles": [
       {
+        "network": "Linkedin",
+        "username": "Sylvain YVON",
+        "url": "https://www.linkedin.com/in/sylvain-yvon"
+      },
+      {
         "network": "Twitter",
         "username": "syvo",
-        "url": "https://twitter.com//syvo"
+        "url": "https://twitter.com/syvo"
       },
       {
         "network": "github",
@@ -41,7 +46,6 @@
     {
       "company": "Orange Applications for Business",
       "position": "Senior Servicenow Developer",
-      "website": "https://www.orange-business.com/fr",
       "startDate": "2017-06-20",
       "summary": "OAB implements and manages Servicenow applications for major french companies like Total, Orange, Saint-Gobain or Enedis, working hand in hand with Orange Cloud for Business for private cloud hosting of Servicenow instances.",
       "highlights": [
@@ -54,7 +58,6 @@
     {
       "company": "Capgemini Outsourcing Services",
       "position": "Senior BMC Remedy and Servicenow Consultant",
-      "website": "",
       "startDate": "2011-02-01",
       "endDate": "2017-06-01",
       "summary": "During my time at Capgemini, I quickly moved from BMC Remedy expertise (Orange, Safran, CNP Assurances) to Servicenow, by first being integrated to a Servicenow Professional Services team (Crédit Agricole SILCA). I was able to take the lead on my next project for DIRISI (french army IT).",
@@ -68,7 +71,6 @@
     {
       "company": "Artesys",
       "position": "Senior BMC Remedy Consultant",
-      "website": "",
       "startDate": "2007-02-01",
       "endDate": "2011-02-01",
       "summary": "Back to IT consultancy with BMC Remedy.",
@@ -80,7 +82,6 @@
     {
       "company": "Interact-iv",
       "position": "Web developer, system admin",
-      "website": "http://interactiv-group.com/",
       "startDate": "2004-02-01",
       "endDate": "2007-02-01",
       "summary": "I was one of the first employees of \"Connectics\", a startup company providing IVR as a service. An exhausting but great experience.",
@@ -92,7 +93,6 @@
     {
       "company": "Apogée Communications",
       "position": "BMC Remedy Consultant",
-      "website": "",
       "startDate": "1998-06-01",
       "endDate": "2004-02-01",
       "summary": "",
