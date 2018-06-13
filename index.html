@@ -1,417 +1,713 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-		<meta name=viewport content="width=device-width, initial-scale=1">
-	    <title>Sylvain YVON - CV</title>
-	    <link rel="stylesheet" media="screen" type="text/css" href="css/style.css"/>
-	    <link rel="stylesheet" media="print" type="text/css" href="css/print.css"/>
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    </head>
-<!--
-Copyright 2013 Sylvain YVON
-Please let me know if you used this ;)
-http://github.com/macmorning/ceve
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Sylvain YVON</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
--->
-    <body>
-        <div id="main">
-            <div class="section" id="presentation">
-                <h1>Sylvain YVON</h1>
-                <p class="smallComment">ServiceNow and BMC Remedy ITSM technical consultant<br/>
-                                        Jack of all trades, master at a few.
-                                         Paris, FR; 38 years old; married, 3 kids.<br/>
-                <p id="originalURL" class="smallComment printOnly">this resume is best seen online : http://cv.macmorning.net<br/>
-				                        <span>✉ sylvain.yvon@gmail.com</span>
-										<span><img src='img/tweet-18x18.png' alt=""/> @syvo</span>
-				</p>
-				<div id="share" class="sticky-container">
-						<ul class="sticky">
-							<li><a class="sticky-link" href="mailto:sylvain.yvon@gmail.com"><img width="32" height="32" title="" alt="" src="img/gmail.png" />
-								<p>Email</p></a>
-							</li>
-							<li><a class="sticky-link" href="https://twitter.com/syvo" target="_blank"><img width="32" height="32" title="" alt="" src="img/twitter.png" />
-								<p>Twitter</p></a>
-							</li>
-							<li> <a class="sticky-link" href="http://fr.linkedin.com/pub/sylvain-yvon/a/976/470" target="_blank"><img width="32" height="32" title="" alt="" src="img/linkedin.png" />
-								<p>Linkedin</p></a>
-							</li>
-						</ul>
-				</div>
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;media.licdn.com&#x2F;dms&#x2F;image&#x2F;C4E03AQFjc67nMYFw9A&#x2F;profile-displayphoto-shrink_100_100&#x2F;0?e&#x3D;1534377600&amp;v&#x3D;beta&amp;t&#x3D;_UpgI4KOJCNccc_rWZIJxFEbCdlD2RgJva6KjyxOK98" alt="avatar">
             </div>
-            <div id="firstBlock">
-                <div class="leftBlock">
-                    <div class="section" id="skills">
-                        <h2>technical skills</h2>
-                            <ul class="bullet">
-                                <li><b>#ServiceNow</b> line of products: user interface, interface design, workflows, dev, audit
-									<ul class="bullet2">
-                                        <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>Application development</li>
-                                        <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>Service Portal</li>
-                                        <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>System Administration</li>
-                                    </ul>
-								</li>
-                                <li><b>#BMCRemedy</b> line of products: architecture &amp; interface design, dev, audit
-									<ul class="bullet2">
-                                        <li><span class="notation" title="5/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span>AR System</li>
-                                        <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>IT Service Management</li>
-                                    </ul>
-								</li>
-                                <li>Databases development
-                                    <ul class="bullet2">
-                                        <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>Oracle DB</li>
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span>MySQL</li>
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span>MS SQL Server</li>
-                                        <li><span class="notation" title="2/5"><span class="greenStars">&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;&#9734;</span></span>MongoDB</li>
-                                    </ul>
-								</li>
-                                <li>System administration
-                                    <ul class="bullet2">
-                                        <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>Linux <b>#RedHat</b> &amp; <b>#Debian</b></li>
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span>UNIX</li>
-                                        <li><span class="notation" title="2/5"><span class="greenStars">&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;&#9734;</span></span>MS Windows Servers</li>
-                                    </ul>
-                                </li>
-                                <li>Web Development - Server side
-                                    <ul class="bullet2">
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span><b>#NodeJS</b></li>
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span><b>#PHP</b></li>
-                                        <li><span class="notation" title="2/5"><span class="greenStars">&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;&#9734;</span></span>JSP</li>
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span>SOAP Web Services</li>
-                                    </ul>
-                                </li>
-                                <li>Web Development - Front end
-                                    <ul class="bullet2">
-                                        <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>HTML5/CSS3</li>
-                                        <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>Vanilla JavaScript</li>
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span><b>#jQuery</b></li>
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span><b>#jQueryMobile</b></li>
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span><b>#AngularJS</b></li>
-                                        <li><span class="notation" title="2/5"><span class="greenStars">&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;&#9734;</span></span>Flex</li>
-                                    </ul>
-                                </li>
-                                <li>Scripting
-                                    <ul class="bullet2">
-                                        <li><span class="notation" title="3/5"><span class="greenStars">&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;</span></span>Bash</li>
-                                        <li><span class="notation" title="2/5"><span class="greenStars">&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;&#9734;</span></span>Perl</li>
-                                    </ul>
-                                </li>
-                                <li>Others
-                                    <ul class="bullet2">
-                                        <li><span class="notation" title="2/5"><span class="greenStars">&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;&#9734;</span></span>VoIP : Asterisk, OpenSER</li>
-                                        <li><span class="notation" title="2/5"><span class="greenStars">&#9733;&#9733;</span><span class="grayStars">&#9734;&#9734;&#9734;</span></span>Networking : Cisco, Fortinet, named, netfilter, ...</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                    </div>
-                </div>
-                <div class="rightBlock">
-                    <div class="section" id="otherskills">
-                        <h2>other skills</h2>
-                            <ul class="bullet">
-                                <li>Passionate</li>
-                                <li>Fast learner</li>
-                                <li>Team player</li>
-                                <li>Autonomous</li>
-                            </ul>
-                    </div>
-                    <div class="section" id="achievements">
-                        <h2>achievements</h2>
-                        <h3>certifications</h3>
-                            <ul class="bullet">
-                                <li>ServiceNow : Certified System Administrator</li>
-                                <li><a href="https://www.redhat.com/rhtapps/certification/verify/?certId=111-109-070" target="_blank">Red Hat certifications</a> : RHCSA &amp; RHCE<br/></li>
-                                <li>BMC Software : RAC &amp; ACC</li>
-                                <li>ITIL v3 Foundation</li>
-                            </ul>
-                        <h3>recognition</h3>
-                        <p>
-                            <a href="https://communities.bmc.com/community/about/blog/2013/06/28/june-users-of-the-month" target="_blank">BMC Communities - user of the month (june 2013)</a><br/>
-                        </p>
-                    </div>
-                    <div class="section" id="onlinepresence">
-                        <h2>online presence</h2>
-                            <ul class="bullet">
-                                <li><a href="http://fr.linkedin.com/pub/sylvain-yvon/a/976/470" target="_blank">linkedin</a></li>
-                                <li><a href="http://www.viadeo.com/profile/0022fjoj23tdjca" target="_blank">viadeo</a></li>
-                                <li><a href="https://github.com/macmorning?tab=repositories" target="_blank">github</a></li>
-                                <li><a href="https://communities.bmc.com/people/syvon" target="_blank">BMC Communities</a></li>
-                            </ul>
-                    </div>
-                </div>
+            <div id="text-header" >
+              <h1>Sylvain YVON<br><span>ITSM &amp; Servicenow Expert</span></h1>
             </div>
-            <div id="secondBlock">
-                <div class="section" id="experience">
-                        <h3>significant professional experience</h3>
-                       <table class="profExperience">
-                            <tr>
-                                <th class="companyTD">company</th>
-                                <th class="yearsTD">years</th>
-                                <th class="descriptionTD">description</th>
-                            </tr>
-							<tr>
-                                <td colspan=2 class="companyTR"><h4>Capgemini</h4></td>
-							</tr>
-                            <tr>
-                                <td rowspan=6 class="companyTD"><h4>Capgemini</h4></td>
-                                <td class="yearsTD">now<br/>2016</td>
-                                <td class="descriptionTD">
-                                    <h5>technical project manager, DIRISI, France</h5>
-                                    <ul class="bullet">
-                                        <li>Implementation of a Service Portal</li>
-                                        <li>Technical environments : <b>#ServiceNow</b> Helsinki</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2016<br/>2015</td>
-                                <td class="descriptionTD">
-                                    <h5>developer, SILCA, France</h5>
-                                    <ul class="bullet">
-                                        <li>Implementation of SILCA IT processes into ServiceNow</li>
-                                        <li>Technical environments : <b>#ServiceNow</b> Fuji</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2015<br/>2014</td>
-                                <td class="descriptionTD">
-                                    <h5>application manager, technical expert, CNP Assurances, France</h5>
-                                    <ul class="bullet">
-                                        <li>Responsible of the administrator and level 3 support team, managing the group engagements, issuing KPI reports...</li>
-                                        <li>Managing a small team (up to 6).</li>
-                                        <li>Technical environments : RHEL 6 &amp; Windows 2012 Servers, <b>#BMCRemedy</b> AR System 8.1, Oracle 11g</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2014<br/>2013</td>
-                                <td class="descriptionTD">
-                                    <h5>technical expert, SAFRAN, France</h5>
-                                    <ul class="bullet">
-                                        <li>Stabilize the new platform and handle the remaining anomalies after the 7.6.04 migration</li>
-                                        <li>Technical environments : RHEL 6 &amp; Windows 2008, <b>#BMCRemedy</b> AR System 7.6.04, Oracle 11g</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2013<br/>2011</td>
-                                <td class="descriptionTD">
-                                    <h5>project manager and technical expert, France Telecom/Orange, France</h5>
-                                    <ul class="bullet">
-                                        <li>Design, maintenance and major evolutions of DMI, main application for internal requests management.</li>
-                                        <li>Managing a small team (up to 3).</li>
-                                        <li>Up to 600 simultaneous users, spread on 8 web servers and 2 application servers.</li>
-                                        <li>Technical environments : RHEL 5, <b>#BMCRemedy</b> AR System 7.5, Oracle 11g</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2011</td>
-                                <td class="descriptionTD">
-                                    <h5>technical expert, Ministry of the Interior, France</h5>
-                                    <ul class="bullet">
-                                        <li>Architecture design of the ITSM implementation.</li>
-                                        <li>Technical environments : RHEL 6, <b>#BMCRemedy</b> ITSM 7.6.04, Oracle 11g</li>
-                                    </ul>
-                                    <h5>technical consultant, SFR via BMC Software, France</h5>
-                                    <ul class="bullet">
-                                        <li>Technical audit, performance and stability troubleshooting in the name of BMC Software.</li>
-                                        <li>Technical environments : MS Windows Server 2003, <b>#BMCRemedy</b> ITSM 7.5, SRM 7.6, MS SQL Server 2005</li>
-                                    </ul>
-                                </td>
-                            </tr>
-							<tr>
-                                <td colspan=2 class="companyTR"><h4>Artesys</h4></td>
-							</tr>
-                            <tr>
-                                <td rowspan=3 class="companyTD"><h4>Artesys</h4></td>
-                                <td class="yearsTD">2010</td>
-                                <td class="descriptionTD">
-                                    <h5>technical expert and developer, RTE, France</h5>
-                                    <ul class="bullet">
-                                        <li>Design and development of SOAP-based interfaces between ITSM 7.6 and other key applications at RTE (Réseaude transport de l’électricité).</li>
-                                        <li>Technical environments : RHEL 5, <b>#BMCRemedy</b> ITSM 7.6.03, Oracle 10g</li>
-                                    </ul>
-                                    <h5>solution architect &amp; technical expert, CNP Assurances, France</h5>
-                                    <ul class="bullet">
-                                        <li>Lead architecture and interfaces consultant for the implementation of Atrium CMDB at CNP Assurances.</li>
-                                        <li>Technical environments : RHEL 5 &amp; Windows 2k3, <b>#BMCRemedy</b> Atrium CMDB 7.6, Oracle 10g</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2009</td>
-                                <td class="descriptionTD">
-                                    <h5>technical expert and developer, Capgemini Outsourcing Services, France</h5>
-                                    <ul class="bullet">
-                                        <li>Lead architecture &amp; interfaces (LDAP, SOAP Web Services) consultant for Capgemini’s ITSM 7 "as a service" offer for their clients.</li>
-                                        <li>Technical environments : HP-UX 11 &amp; Windows 2k3, <b>#BMCRemedy</b> ITSM 7.0.3, Oracle 10g</li>
-                                    </ul>
-                                    <h5>technical expert and project manager, TDF, France</h5>
-                                    <ul class="bullet">
-                                        <li>Quoting, Designing, Planning and Staffing for the network incident management application of TDF (Télédiffusion De France).</li>
-                                        <li>Technical environments : SunOS 10 &amp; Windows 2k3, <b>#BMCRemedy</b> ITSM 7, Oracle 9i</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2008</td>
-                                <td class="descriptionTD">
-                                    <h5>technical and functionnal consultant, developer, TDF, France</h5>
-                                    <ul class="bullet">
-                                        <li>Functional and technical consultancy for BMC Software’s ITSM 7 at TDF (Télédiffusion De France).</li>
-                                        <li>Technical environments : HP-UX 11 &amp; Windows 2k3, <b>#BMCRemedy</b> ITSM 7.0.3, Oracle 10g</li>
-                                    </ul>
-                                </td>
-                            </tr>
-							<tr>
-                                <td colspan=2 class="companyTR"><h4>Connectics (Interact-iv)</h4></td>
-							</tr>
-                            <tr>
-                                <td class="companyTD"><h4>Connectics (Interact-iv)</h4></td>
-                                <td class="yearsTD">2008<br/>2004</td>
-                                <td class="descriptionTD">
-                                    <h5>deployment of a multi-site IVR platform</h5>
-                                    <ul class="bullet">
-                                        <li>Installation &amp; administration of a multi-site platform running an IVR service (SaaS).</li>
-                                        <li>Linux RHEL 4 with Xen 3 hosting RHEL 4, Fedora and Debian virtual servers running VoIP software: Asterisk,
-                                            OpenSER. Platform includes Zabbix for supervision, Kerberos for authentication, Bind for name resolution, Puppet
-                                            for configuration files management, Postfix for emails ...</li>
-                                    </ul>
-                                    <h5>web development</h5>
-                                    <ul class="bullet">
-                                        <li>Design and development of web applications in PHP, HTML, CSS, JS. Interfaces based on SOAP web services.</li>
-                                    </ul>
-                                </td>
-                            </tr>
-							<tr>
-                                <td colspan=2 class="companyTR"><h4>Apogée-Communications (Devoteam)</h4></td>
-							</tr>
-                            <tr>
-                                <td rowspan=5 class="companyTD"><h4>Apogée-Communications (Devoteam)</h4></td>
-                                <td class="yearsTD">2004<br/>2002</td>
-                                <td class="descriptionTD">
-                                    <h5>functional and technical consultant, Total RM, France</h5>
-                                    <ul class="bullet">
-                                        <li>Maintenance and evolution of the IT incident management application.</li>
-                                        <li>AR System 5</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2002</td>
-                                <td class="descriptionTD">
-                                    <h5>technical consultant, COLT, England</h5>
-                                    <ul class="bullet">
-                                        <li>Auditing of the IT incident management application.</li>
-                                        <li>AR System 4.5</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">2001<br>2000</td>
-                                <td class="descriptionTD">
-                                    <h5>developer, EDF, France</h5>
-                                    <ul class="bullet">
-                                        <li>Development of an IT incident management application.</li>
-                                        <li>AR System 4</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">1999</td>
-                                <td class="descriptionTD">
-                                    <h5>developer, Flemish Ministry, Belgium</h5>
-                                    <ul class="bullet">
-                                        <li>Development of a helpdesk application for the internal support call center.</li>
-                                        <li>AR System 4</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="yearsTD">1998</td>
-                                <td class="descriptionTD">
-                                    <h5>developer, France Telecom, France</h5>
-                                    <ul class="bullet">
-                                        <li>Development of the first two versions of the IT incident management application "GENESIS".</li>
-                                        <li>AR System 3.2.1</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-                    <h3>side projects</h3>
-                    <p>
-                        <a href="https://github.com/macmorning/macmorning.github.io" target="_blank">this resume</a>: built in Notepad++ from scratch, clean and responsive, <b>#HTML5</b>, <b>#CSS3</b>, <b>#RWD</b><br/>
-                        <a href="http://www.chess-hub.net/" target="_blank">chess-hub</a>: open web platform for online chess play; vanilla <b>#NodeJS</b> hosted on Heroku, <b>#gruntjs</b>, <b>#jQuery</b>, <b>#jQueryMobile</b>, <b>#RWD</b><br/>
-                        <a href="http://bdtek.macmorning.net/view.html?alias=syvo" target="_blank">bdtek</a>: sharing a books/comics library by importing their scanned ISBN, fetching informations from Amazon on the fly; vanilla <b>#NodeJS</b> hosted on Heroku, auth managed by and data stored on <b><a href="https://firebase.google.com/" target="_blank">#Firebase</a></b>, <b>#AmazonWS</b>, <b>#jQueryMobile</b><br/>
-                        <a href="https://github.com/macmorning/itsm_mobileview" target="_blank">ITSM Mobile View</a>: simple Web GUI for BMCRemedy ITSM 8, based on <b>#jQuery</b>, <b>#jQueryMobile</b><br/>
-                    </p>
-                </div>
-            </div>
-            <div id="thirdBlock">
-                <div class="leftBlock">
-                    <div class="section" id="languages">
-                        <h2>languages</h2>
-                        <ul class="bullet2">
-                            <li><span class="notation" title="5/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span>French</li>
-                            <li><span class="notation" title="4/5"><span class="greenStars">&#9733;&#9733;&#9733;&#9733;</span><span class="grayStars">&#9734;</span></span>English</li>
-                            <li><span class="notation" title="1/5"><span class="greenStars">&#9733;</span><span class="grayStars">&#9734;&#9734;&#9734;&#9734;</span></span>German</li>
-                        </ul>
-                    </div>
-                    <div class="section" id="education">
-                        <h2>education</h2>
-                            <ul class="bullet">
-                                <li>DUT Informatique, Université Paris Sud @Orsay</li>
-                                <li>MathSup, MathSpe, ESME Sudria @Paris</li>
-                                <li>BAC S</li>
-                            </ul>
-                    </div>
-                </div>
-                <div class="rightBlock">
-                    <div class="section" id="hobbies">
-                        <h2>hobbies</h2>
-                            <ul class="bullet">
-                                <li><a href="http://aikido.sens-arts-martiaux.com/" target="_blank">aïkido</a></li>
-                                <li>guitar</li>
-                                <li>chess</li>
-                                <li>comics</li>
-                                <li>web dev</li>
-                            </ul>
-                    </div>
-                </div>
-            </div>
-			<div id="footerBlock">
-				<span style="">
-					<a class="valid" href="http://www.w3.org/html/logo/" target="_blank">
-						<img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" style="border:0;width:31px;height:32px" alt="HTML5 Powered" title="HTML5 Powered">
-					</a>
-					<a class="valid" href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmacmorning.github.io%2F&profile=css3&usermedium=all&warning=1&vextwarning=" target="_blank">
-						<img style="border:0;width:88px;height:31px"
-							src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-							alt="Valid CSS!" />
-					</a>
-				</span>
-			</div>
+          </div>
         </div>
-    </body>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fa fa-user ico"></i> About</h2>
+            <p>Enthousiast and experienced Servicenow and BMC Remedy expert with a great experience in IT. Loving the World Wide Web since 1995. Jack of all trades, master at some.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Orange Applications for Business</div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.orange-business.com&#x2F;fr" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.orange-business.com&#x2F;fr</a>
+                    </div>
+                    <div class="year">June 2017 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Servicenow Developer</div>
+                    <div class="description">
+                      OAB implements and manages Servicenow applications for major french companies like Total, Orange, Saint-Gobain or Enedis, working hand in hand with Orange Cloud for Business for private cloud hosting of Servicenow instances.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Functional and technical Servicenow expertise</li>
+                        <li class="list-group-item">Lead small dev teams</li>
+                        <li class="list-group-item">SCRUM methodology</li>
+                        <li class="list-group-item">Service Catalog, CMDB, Incidents, Problems, Changes, PPM, Field Service, Service Portal,...</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Capgemini Outsourcing Services</div>
+                    <div class="year">February 2011 – June 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior BMC Remedy and Servicenow Consultant</div>
+                    <div class="description">
+                      During my time at Capgemini, I quickly moved from BMC Remedy expertise (Orange, Safran, CNP Assurances) to Servicenow, by first being integrated to a Servicenow Professional Services team (Crédit Agricole SILCA). I was able to take the lead on my next project for DIRISI (french army IT).
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Lead small dev teams</li>
+                        <li class="list-group-item">Founded a level 3 support team</li>
+                        <li class="list-group-item">Evolved from BMC Remedy expert to Servicenow expert</li>
+                        <li class="list-group-item">Service Catalog, CMDB, Incidents, Problems, Changes, Service Portal,...</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Artesys</div>
+                    <div class="year">February 2007 – February 2011</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior BMC Remedy Consultant</div>
+                    <div class="description">
+                      Back to IT consultancy with BMC Remedy.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Mainly worked on technical architectures for self-hosted BMC Remedy instances</li>
+                        <li class="list-group-item">Stepped in multiple contexts as a technical expert to support project teams, either to solve multi-factor issues or design complex evolutions</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Interact-iv</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;interactiv-group.com&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;interactiv-group.com&#x2F;</a>
+                    </div>
+                    <div class="year">February 2004 – February 2007</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Web developer, system admin</div>
+                    <div class="description">
+                      I was one of the first employees of "Connectics", a startup company providing IVR as a service. An exhausting but great experience.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Installation & administration of a multi-site SaaS IVR platform (RH, Xen, Puppet, Asterisk, Open SER...)</li>
+                        <li class="list-group-item">Design & development of web applications in PHP, HTML, CSS, JS. Interfaces based on SOAP web services</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Apogée Communications</div>
+                    <div class="year">June 1998 – February 2004</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">BMC Remedy Consultant</div>
+                    <div class="description">
+                      
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">First contact with IT and the Remedy platform</li>
+                        <li class="list-group-item">Various missions in Paris, London, Brussels</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- AWARDS -->
+          <div class="box">
+            <h2><i class="fa fa-certificate ico"></i> Awards</h2>
+            <ul id="awards" class="clearfix">
+              <li>
+                <div class="year pull-left">March  2018</div>
+                <div class="description pull-right">
+                  <h3>Servicenow</h3>
+                  <p><i class="fa fa-trophy ico"></i> Certified System Administrator</p>
+                  <p></p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">January  2018</div>
+                <div class="description pull-right">
+                  <h3>freeCodeCamp</h3>
+                  <p><i class="fa fa-trophy ico"></i> Front End Developer Certificate</p>
+                  <p>Representing approximately 400 hours of coursework</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">June  2013</div>
+                <div class="description pull-right">
+                  <h3>BMC Community</h3>
+                  <p><i class="fa fa-trophy ico"></i> BMC Communities User of the Month</p>
+                  <p>For a number of contributions (documents and answers)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">November  2012</div>
+                <div class="description pull-right">
+                  <h3>Red hat</h3>
+                  <p><i class="fa fa-trophy ico"></i> Red hat Certified Engineer</p>
+                  <p>Red Hat Enterprise Linux 6</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">11, rue Gaston Defferre</div>
+              <div class="title  pull-right">L&#39;Isle-Jourdain 32600 FR</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">+33 6 38 59 54 78</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:sylvain.yvon@gmail.com" target="_blank">sylvain.yvon@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
+              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;macmorning.github.io&#x2F;" target="_blank">https:&#x2F;&#x2F;macmorning.github.io&#x2F;</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;&#x2F;syvo" target="_blank">syvo</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+              <div class="title pull-right">github</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;macmorning" target="_blank">macmorning</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-servicenow community fa-fw"></span></div>
+              <div class="title pull-right">Servicenow Community</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;community.servicenow.com&#x2F;community?id&#x3D;community_user_profile&amp;user&#x3D;6fa2d2addbd81fc09c9ffb651f96190e" target="_blank">syvo</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-bmc communities fa-fw"></span></div>
+              <div class="title pull-right">BMC Communities</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;communities.bmc.com&#x2F;people&#x2F;syvon" target="_blank">syvo</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fa fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">1997 1998</div>
+                <div class="description pull-right">
+                  <h3>Université Paris XI (Orsay, FR)</h3>
+                  <p><i class= "fa fa-graduation-cap ico"></i> University Technological Degree (DUT)</p>
+                  <p>Information Technology</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">1995 1997</div>
+                <div class="description pull-right">
+                  <h3>ESME Sudria</h3>
+                  
+                  <p>Maths SUP &#x2F; SPE</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">1994 1995</div>
+                <div class="description pull-right">
+                  <h3>Lycée Marie-Curie (Sceaux, FR)</h3>
+                  <p><i class= "fa fa-graduation-cap ico"></i> Baccalauréat S</p>
+                  <p></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Servicenow - Platform
+                  <span class="skill-level">Master</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">IT Management</span>
+                <span class= "skill badge">Service Portal</span>
+                <span class= "skill badge">CMDB</span>
+                <span class= "skill badge">Service Catalog</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Web Development
+                  <span class="skill-level">Master</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Javascript</span>
+                <span class= "skill badge">Web services (REST, SOAP)</span>
+                <span class= "skill badge">Modern HTML</span>
+                <span class= "skill badge">Angular JS</span>
+                <span class= "skill badge">NodeJS</span>
+                <span class= "skill badge">Web XR</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Linux
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Red hat</span>
+                <span class= "skill badge">Debian</span>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2><i class="fa fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">French<span class="skill badge pull-right">Native speaker</span></li>
+              <li class=" list-group-item">English<span class="skill badge pull-right">Fluent, technical</span></li>
+            </ul>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fa fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  The World Wide Web
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Web dev</span>
+                <span class= "interest badge">Web XR</span>
+                <span class= "interest badge">2D and 3D graphic art</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Sports
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Basketball</span>
+                <span class= "interest badge">Aikido</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
 </html>

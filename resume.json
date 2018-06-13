@@ -1,0 +1,222 @@
+{
+  "basics": {
+    "name": "Sylvain YVON",
+    "label": "ITSM & Servicenow Expert",
+    "picture": "https://media.licdn.com/dms/image/C4E03AQFjc67nMYFw9A/profile-displayphoto-shrink_100_100/0?e=1534377600&v=beta&t=_UpgI4KOJCNccc_rWZIJxFEbCdlD2RgJva6KjyxOK98",
+    "email": "sylvain.yvon@gmail.com",
+    "phone": "+33 6 38 59 54 78",
+    "website": "https://macmorning.github.io/",
+    "summary": "Enthousiast and experienced Servicenow and BMC Remedy expert with a great experience in IT. Loving the World Wide Web since 1995. Jack of all trades, master at some.",
+    "location": {
+      "address": "11, rue Gaston Defferre",
+      "postalCode": "32600",
+      "city": "L'Isle-Jourdain",
+      "countryCode": "FR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "syvo",
+        "url": "https://twitter.com//syvo"
+      },
+      {
+        "network": "github",
+        "username": "macmorning",
+        "url": "https://github.com/macmorning"
+      },
+      {
+        "network": "Servicenow Community",
+        "username": "syvo",
+        "url": "https://community.servicenow.com/community?id=community_user_profile&user=6fa2d2addbd81fc09c9ffb651f96190e"
+      },
+      {
+        "network": "BMC Communities",
+        "username": "syvo",
+        "url": "https://communities.bmc.com/people/syvon"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Orange Applications for Business",
+      "position": "Senior Servicenow Developer",
+      "website": "https://www.orange-business.com/fr",
+      "startDate": "2017-06-20",
+      "summary": "OAB implements and manages Servicenow applications for major french companies like Total, Orange, Saint-Gobain or Enedis, working hand in hand with Orange Cloud for Business for private cloud hosting of Servicenow instances.",
+      "highlights": [
+        "Functional and technical Servicenow expertise",
+        "Lead small dev teams",
+        "SCRUM methodology",
+        "Service Catalog, CMDB, Incidents, Problems, Changes, PPM, Field Service, Service Portal,..."
+      ]
+    },
+    {
+      "company": "Capgemini Outsourcing Services",
+      "position": "Senior BMC Remedy and Servicenow Consultant",
+      "website": "",
+      "startDate": "2011-02-01",
+      "endDate": "2017-06-01",
+      "summary": "During my time at Capgemini, I quickly moved from BMC Remedy expertise (Orange, Safran, CNP Assurances) to Servicenow, by first being integrated to a Servicenow Professional Services team (Crédit Agricole SILCA). I was able to take the lead on my next project for DIRISI (french army IT).",
+      "highlights": [
+        "Lead small dev teams",
+        "Founded a level 3 support team",
+        "Evolved from BMC Remedy expert to Servicenow expert",
+        "Service Catalog, CMDB, Incidents, Problems, Changes, Service Portal,..."
+      ]
+    },
+    {
+      "company": "Artesys",
+      "position": "Senior BMC Remedy Consultant",
+      "website": "",
+      "startDate": "2007-02-01",
+      "endDate": "2011-02-01",
+      "summary": "Back to IT consultancy with BMC Remedy.",
+      "highlights": [
+        "Mainly worked on technical architectures for self-hosted BMC Remedy instances",
+        "Stepped in multiple contexts as a technical expert to support project teams, either to solve multi-factor issues or design complex evolutions"
+      ]
+    },
+    {
+      "company": "Interact-iv",
+      "position": "Web developer, system admin",
+      "website": "http://interactiv-group.com/",
+      "startDate": "2004-02-01",
+      "endDate": "2007-02-01",
+      "summary": "I was one of the first employees of \"Connectics\", a startup company providing IVR as a service. An exhausting but great experience.",
+      "highlights": [
+        "Installation & administration of a multi-site SaaS IVR platform (RH, Xen, Puppet, Asterisk, Open SER...)",
+        "Design & development of web applications in PHP, HTML, CSS, JS. Interfaces based on SOAP web services"
+      ]
+    },
+    {
+      "company": "Apogée Communications",
+      "position": "BMC Remedy Consultant",
+      "website": "",
+      "startDate": "1998-06-01",
+      "endDate": "2004-02-01",
+      "summary": "",
+      "highlights": [
+        "First contact with IT and the Remedy platform",
+        "Various missions in Paris, London, Brussels"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Université Paris XI (Orsay, FR)",
+      "area": "Information Technology",
+      "studyType": "University Technological Degree (DUT)",
+      "startDate": "1997-09-01",
+      "endDate": "1998-06-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "ESME Sudria",
+      "area": "Maths SUP / SPE",
+      "studyType": "",
+      "startDate": "1995-09-01",
+      "endDate": "1997-06-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Marie-Curie (Sceaux, FR)",
+      "area": "",
+      "studyType": "Baccalauréat S",
+      "startDate": "1994-09-01",
+      "endDate": "1995-07-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Certified System Administrator",
+      "date": "2018-03-01",
+      "awarder": "Servicenow",
+      "summary": ""
+    },
+    {
+      "title": "Front End Developer Certificate",
+      "date": "2018-01-01",
+      "awarder": "freeCodeCamp",
+      "summary": "Representing approximately 400 hours of coursework"
+    },
+    {
+      "title": "BMC Communities User of the Month",
+      "date": "2013-06-01",
+      "awarder": "BMC Community",
+      "summary": "For a number of contributions (documents and answers)"
+    },
+    {
+      "title": "Red hat Certified Engineer",
+      "date": "2012-11-01",
+      "awarder": "Red hat",
+      "summary": "Red Hat Enterprise Linux 6"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Servicenow - Platform",
+      "level": "Master",
+      "keywords": [
+        "IT Management",
+        "Service Portal",
+        "CMDB",
+        "Service Catalog"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "Javascript",
+        "Web services (REST, SOAP)",
+        "Modern HTML",
+        "Angular JS",
+        "NodeJS",
+        "Web XR"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Advanced",
+      "keywords": [
+        "Red hat",
+        "Debian"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent, technical"
+    }
+  ],
+  "interests": [
+    {
+      "name": "The World Wide Web",
+      "keywords": [
+        "Web dev",
+        "Web XR",
+        "2D and 3D graphic art"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Basketball",
+        "Aikido"
+      ]
+    }
+  ],
+  "references": []
+}
