@@ -134,6 +134,12 @@
   ],
   "awards": [
     {
+      "title": "Certified Application Developer",
+      "date": "2018-06-21",
+      "awarder": "Servicenow",
+      "summary": ""
+    },
+    {
       "title": "Certified System Administrator",
       "date": "2018-03-01",
       "awarder": "Servicenow",
