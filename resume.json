@@ -134,6 +134,12 @@
   ],
   "awards": [
     {
+      "title": "Certified Implementation Specialist - ITSM",
+      "date": "2019-02-01",
+      "awarder": "Servicenow",
+      "summary": ""
+    },
+    {
       "title": "Certified Application Developer",
       "date": "2018-06-21",
       "awarder": "Servicenow",
@@ -221,6 +227,13 @@
       "keywords": [
         "Basketball",
         "Aikido"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Bass",
+        "Guitar"
       ]
     }
   ],
