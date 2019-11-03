@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Sylvain YVON",
-    "label": "Expert technique gestion IT",
+    "label": "ITSM & Servicenow Expert",
     "picture": "https://files.macmorning.net/photo.jpg",
     "email": "sylvain.yvon@gmail.com",
     "phone": "+33 6 38 59 54 78",
     "website": "https://macmorning.github.io/",
-    "summary": "Expert ServiceNow et BMC Remedy avec une grande expérience dans l'IT, développeur, chef de projet technique",
+    "summary": "Enthousiast and experienced Servicenow and BMC Remedy expert with a great experience in IT. Loving the World Wide Web since 1995. Jack of all trades, master at some.",
     "location": {
       "address": "24, rue Antoine de Saint-Exupéry",
       "postalCode": "32600",
@@ -47,36 +47,36 @@
       "company": "Orange Applications for Business",
       "position": "Senior Servicenow Developer",
       "startDate": "2017-06-20",
-      "summary": "OAB implémente et maintient des applications de gestion d'infrastructure pour des entreprises françaises majeures telles que Total, Orange, Saint-Gobain ou Enedis, travaillant main dans la main avec Orange Cloud for Business pour l'hébergement en cloud privé.",
+      "summary": "OAB implements and manages Servicenow applications for major french companies like Total, Orange, Saint-Gobain or Enedis, working hand in hand with Orange Cloud for Business for private cloud hosting of Servicenow instances.",
       "highlights": [
-        "Expertise fonctionnelle et technique sur ServiceNow",
-        "Encadrement d'équipes de développement réduites",
-        "Méthodologie SCRUM",
-        "Processus de gestion d'offres de services, de CMDB, d'incidents, problèmes, changements, projets, portail de services,...",
-        "Développement Web AngularJS, API REST, VueJS, React"
+        "Functional and technical Servicenow expertise",
+        "Lead small dev teams",
+        "SCRUM methodology",
+        "Service Catalog, CMDB, Incidents, Problems, Changes, PPM, Field Service, Service Portal,..."
       ]
     },
     {
       "company": "Capgemini Outsourcing Services",
-      "position": "Consultant Senior BMC Remedy et Servicenow",
+      "position": "Senior BMC Remedy and Servicenow Consultant",
       "startDate": "2011-02-01",
       "endDate": "2017-06-01",
-      "summary": "Pendant le temps passé chez Capgemini, je suis passé rapidement d'une expertise BMC Remedy expertise (Orange, Safran, CNP Assurances) vers Servicenow, en étant intégré à une équipe de Servicenow Professional Services (Crédit Agricole SILCA). Je pris le lead de mon équipe avec succès sur le projet suivant pour DIRISI (informatique de l'état major des armées).",
+      "summary": "During my time at Capgemini, I quickly moved from BMC Remedy expertise (Orange, Safran, CNP Assurances) to Servicenow, by first being integrated to a Servicenow Professional Services team (Crédit Agricole SILCA). I was able to take the lead on my next project for DIRISI (french army IT).",
       "highlights": [
-        "Encadrement d'équipes de développement réduites",
-        "Expertise technique et développement sur la plateforme ServiceNow",
-        "Mise en place d'une équipe de support de niveau 3, suivi des engagements de services, etc"
+        "Lead small dev teams",
+        "Founded a level 3 support team",
+        "Evolved from BMC Remedy expert to Servicenow expert",
+        "Service Catalog, CMDB, Incidents, Problems, Changes, Service Portal,..."
       ]
     },
     {
       "company": "Artesys",
-      "position": "Consultant Senior BMC Remedy",
+      "position": "Senior BMC Remedy Consultant",
       "startDate": "2007-02-01",
       "endDate": "2011-02-01",
-      "summary": "De retour au consulting IT.",
+      "summary": "Back to IT consultancy with BMC Remedy.",
       "highlights": [
-        "Principalement travaux de conception d'architectures en cloud privé pour les solutions BMC Remedy de nos clients",
-        "Intervention sur de multiples projets en tant qu'expert, en cas de problématiques techniques transverses ou d'évolutions complexes"
+        "Mainly worked on technical architectures for self-hosted BMC Remedy instances",
+        "Stepped in multiple contexts as a technical expert to support project teams, either to solve multi-factor issues or design complex evolutions"
       ]
     },
     {
@@ -84,10 +84,10 @@
       "position": "Web developer, system admin",
       "startDate": "2004-02-01",
       "endDate": "2007-02-01",
-      "summary": "Parmis les premiers employés de \"Connectics\" / \"Interact-iv\", à l'époque une startup fournissant une plateforme de services vocaux interactifs. Une expérience très riche en enseignements.",
+      "summary": "I was one of the first employees of \"Connectics\", a startup company providing IVR as a service. An exhausting but great experience.",
       "highlights": [
-        "Installation & administration d'une plateforme SVI multi-sites (RH, Xen, Puppet, Asterisk, Open SER...)",
-        "Design & développement d'applications web en PHP, HTML, CSS, JS. Interfaces basées sur des web services SOAP"
+        "Installation & administration of a multi-site SaaS IVR platform (RH, Xen, Puppet, Asterisk, Open SER...)",
+        "Design & development of web applications in PHP, HTML, CSS, JS. Interfaces based on SOAP web services"
       ]
     },
     {
@@ -97,8 +97,8 @@
       "endDate": "2004-02-01",
       "summary": "",
       "highlights": [
-        "Premiers contacts avec le monde de l'IT et la plateforme Remedy",
-        "Diverses missions à Paris, Londres, et Bruxelles (en anglais)"
+        "First contact with IT and the Remedy platform",
+        "Various missions in Paris, London, Brussels"
       ]
     }
   ],
@@ -107,7 +107,7 @@
     {
       "institution": "Université Paris XI (Orsay, FR)",
       "area": "Information Technology",
-      "studyType": "Diplôme Universitaire Technologique (DUT)",
+      "studyType": "University Technological Degree (DUT)",
       "startDate": "1997-09-01",
       "endDate": "1998-06-01",
       "gpa": "",
@@ -155,13 +155,13 @@
       "title": "Front End Developer Certificate",
       "date": "2018-01-01",
       "awarder": "freeCodeCamp",
-      "summary": "Représentant approximativement 400 heures de cours et travaux pratiques"
+      "summary": "Representing approximately 400 hours of coursework"
     },
     {
       "title": "BMC Communities User of the Month",
       "date": "2013-06-01",
       "awarder": "BMC Community",
-      "summary": "Pour de nombreuses contributions à la communauté (documents et réponses)"
+      "summary": "For a number of contributions (documents and answers)"
     },
     {
       "title": "Red hat Certified Engineer",
@@ -173,8 +173,8 @@
   "publications": [],
   "skills": [
     {
-      "name": "Servicenow - Plateforme",
-      "level": "Expert",
+      "name": "Servicenow - Platform",
+      "level": "Master",
       "keywords": [
         "IT Management",
         "Service Portal",
@@ -183,20 +183,20 @@
       ]
     },
     {
-      "name": "Développement Web",
-      "level": "Expert",
+      "name": "Web Development",
+      "level": "Master",
       "keywords": [
         "Javascript",
         "Web services (REST, SOAP)",
         "Modern HTML",
         "Angular JS",
         "NodeJS",
-        "VueJS"
+        "Web XR"
       ]
     },
     {
       "name": "Linux",
-      "level": "Avancé",
+      "level": "Advanced",
       "keywords": [
         "Red hat",
         "Debian"
@@ -205,21 +205,21 @@
   ],
   "languages": [
     {
-      "language": "Français",
-      "fluency": "Langue natale"
+      "language": "French",
+      "fluency": "Native speaker"
     },
     {
-      "language": "Anglais",
-      "fluency": "Fluide, technique"
+      "language": "English",
+      "fluency": "Fluent, technical"
     }
   ],
   "interests": [
     {
       "name": "The World Wide Web",
       "keywords": [
-        "Développement Web",
-        "Réalité augmentée Web / WebXR",
-        "Arts graphiques 2D/3D par ordinateur"
+        "Web dev",
+        "Web XR",
+        "2D and 3D graphic art"
       ]
     },
     {
